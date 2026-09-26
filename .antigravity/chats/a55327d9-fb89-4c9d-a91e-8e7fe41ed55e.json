@@ -3,7 +3,7 @@
   "name": "￼ какая модель тут сейчас работает",
   "createdAt": "2026-09-26T17:27:12.989Z",
   "filename": "a55327d9-fb89-4c9d-a91e-8e7fe41ed55e.json",
-  "geminiStarted": false,
+  "geminiStarted": true,
   "messages": [
     {
       "id": "8ce1c996-7a57-4555-baf3-f346d0b2b983",
@@ -15,6 +15,42 @@
       "parent_message_id": null,
       "created_at": "2026-09-26T17:28:31.067Z",
       "sender": "ios",
+      "is_cancelled": false
+    },
+    {
+      "id": "a4fcbebe-387f-4e7c-8d11-05e6784d3a65",
+      "role": "agent",
+      "content": "Да, я свободно владею и поддерживаю русский язык! \n\nВы можете писать мне запросы, обсуждать код, ставить задачи и задавать любые вопросы на русском языке. \n\nЧем я могу помочь вам сегодня в работе над проектом?",
+      "status": "completed",
+      "model": "gemini-3.8-flash-high",
+      "client_type": "gemini-bridge",
+      "parent_message_id": "8ce1c996-7a57-4555-baf3-f346d0b2b983",
+      "created_at": "2026-09-26T17:28:36.760Z",
+      "sender": "macOS",
+      "is_cancelled": false
+    },
+    {
+      "id": "c80888a0-9d3f-48b2-a5a4-5306c9625e40",
+      "role": "user",
+      "content": "Проверь какие сейчас проекты у меня находятся на моем GitHub",
+      "status": "pending",
+      "model": "gemini-3.8-flash-high",
+      "client_type": "gemini-bridge",
+      "parent_message_id": null,
+      "created_at": "2026-09-26T17:29:34.636Z",
+      "sender": "ios",
+      "is_cancelled": false
+    },
+    {
+      "id": "f254ef3e-29cf-49ce-8e98-18ef61adbc17",
+      "role": "agent",
+      "content": "У меня нет прямого доступа к вашему личному аккаунту GitHub, поэтому я не могу просмотреть список ваших существующих репозиториев.\n\nТекущий проект сохраняется автоматически внутри приложения и пока не привязан к GitHub. \n\nЕсли вы хотите подключить репозиторий или выгрузить этот проект на GitHub, нажмите на **значок GitHub в верхней части чата** — после подключения вся история проекта будет перенесена туда.",
+      "status": "completed",
+      "model": "gemini-3.8-flash-high",
+      "client_type": "gemini-bridge",
+      "parent_message_id": "c80888a0-9d3f-48b2-a5a4-5306c9625e40",
+      "created_at": "2026-09-26T17:29:48.923Z",
+      "sender": "macOS",
       "is_cancelled": false
     }
   ]
